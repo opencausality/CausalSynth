@@ -1,0 +1,10 @@
+{
+  "nodes": ["age", "bmi", "exercise_hours", "blood_pressure"],
+  "edges": [
+    ["age", "bmi"],
+    ["age", "blood_pressure"],
+    ["bmi", "blood_pressure"],
+    ["exercise_hours", "bmi"],
+    ["exercise_hours", "blood_pressure"]
+  ]
+}
